@@ -21,7 +21,7 @@ header {
     display: flex;
     flex-flow: row;
     justify-content: space-between;
-    background-color: #000000af;
+    background-color: #000000d5;
 }
 nav {margin: 25px 35px;}
 header img {height: 50px; margin: 20px 50px;}
@@ -33,7 +33,7 @@ header img {height: 50px; margin: 20px 50px;}
     top: 90px;
     display: none;
     flex-flow: column;
-    background-color: #000000af;
+    background-color: #000000d5;
 }
 #menu li {
     cursor: pointer;
@@ -75,7 +75,3 @@ header img {height: 50px; margin: 20px 50px;}
     align-items: center;
     justify-content: space-around;
 }
-
-@media only all and (min-width: 915px){}
-
-@media only all and (max-width: 915px){}
