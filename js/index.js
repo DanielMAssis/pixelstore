@@ -9,12 +9,13 @@ $(document).ready(function(){
         let id = this.id;
         if(id == 'geral'){
             $('.card').fadeIn(700);
-            $('.card').css('display','block');
+            $('.card').css('display','flex');
+            $('.resgate').css('display','none');
         }
         else {
-            $('.card').css('display','none');
+            $('.card, .resgate').css('display','none');
             $('.'+id).fadeIn(700);
-            $('.'+id).css('display','block');
+            $('.'+id).css('display','flex');
         }
     });
 });

@@ -60,6 +60,8 @@ header img {height: 50px; margin: 20px 50px;}
 .card {
     width: 250px;
     height: 300px;
+    display: flex;
+    flex-flow: column;
     background: #0e0d11;
     border-radius: 5px;
     margin: 10px;
@@ -75,3 +77,16 @@ header img {height: 50px; margin: 20px 50px;}
     align-items: center;
     justify-content: space-around;
 }
+.resgate {
+    width: 100%;
+    display: none;
+    flex-flow: column;
+    align-items: center;
+    text-align: justify;
+    color: #ffffff;
+    padding-bottom: 20px;
+}
+.resgate h1 {font-size: 24pt; text-shadow: 0 0px 5px #000;}
+.resgate p {width: 70%; font-size: 15pt; padding: 40px 0; text-shadow: 0 0px 5px #000;}
+
+iframe {width: 70%;}
